@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .middle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 60%;
+        }
+        .search{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            background-color: rgb(238, 238, 238);
+        }
+        .search input[type="text"]{
+            width: 400px;
+        }
+        .blocks{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .block{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .bg-color1{
+            background-color: rgb(195, 255, 245);
+        }
+        .bg-color2{
+            background-color: rgb(153, 255, 238);
+        }
+        .bg-color3{
+            background-color: rgb(101, 255, 229);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="middle">
+            <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="google logosu">
+            <div class="search">
+                <p>Search the web using Google!</p>
+                <input type="text">
+                <div class="buttons">
+                    <button>Google Search</button>
+                    <button>I'm feeling lucky</button>
+                </div>
+            </div>
+            <div class="blocks">
+                <div class="block bg-color1">
+                    <p>Special Searches</p>
+                    <a href="https://www.google.com/search?q=stanford&oq=stanford&aqs=chrome..69i57j46i39j0i512l4j69i60l2.1700j0j9&sourceid=chrome&ie=UTF-8">Stanford Search</a>
+                    <a href="https://www.google.com/search?q=linux&sxsrf=AJOqlzXXpjAUm6Iu55UAFxWP3faNdK1S9A%3A1678310047599&ei=n_oIZJ2iJL6Hxc8P3d2zgAI&ved=0ahUKEwjd7daRoM39AhW-Q_EDHd3uDCAQ4dUDCA8&uact=5&oq=linux&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIICAAQgAQQsQMyCwgAEIAEELEDEIMBMggIABCABBCxAzIFCAAQgAQyBAguEEMyCwguEIAEELEDEIMBMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIIxAnEBM6EQguEIAEELEDEIMBEMcBENEDOhEILhCDARDHARCxAxDRAxCABDoOCC4QgAQQsQMQxwEQ0QM6CAguELEDEIMBOhAILhCDARDHARCxAxDRAxBDOgQIABBDSgQIQRgAUABY3AJgzQNoAHABeAGAAZ4CiAHlBpIBBTAuMS4zmAEAoAEBwAEB&sclient=gws-wiz-serp">Linux Search</a>
+                </div>
+                <div class="block bg-color2">
+                    <a href="#">Help!</a>
+                    <a href="#">About Google!</a>
+                    <a href="#">Company Info</a>
+                    <a href="#">Google! Logos</a>
+                </div>
+                <div class="block bg-color3">
+                    <p>Get Google!</p>
+                    <p>updates mounthly:</p>
+                    <input type="email" placeholder="your e-mail">
+                    <div>
+                        <button>Subscribe</button>
+                        <a href="#">Archive</a>
+                    </div>
+                </div>
+            </div>
+            <p>Copyright ©1998 Google Inc.</p>
+        </div>
+    </div>
+</body>
+</html>
